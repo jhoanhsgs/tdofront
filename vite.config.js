@@ -16,7 +16,7 @@ export default defineConfig({
   server:{
     proxy:{
         '/api':{
-            target: "http://localhost:8000",
+            target: "https://king-prawn-app-vxr38.ondigitalocean.app",
             changeOrigin: true,
             headers: {
                 Accept: "application/json",
