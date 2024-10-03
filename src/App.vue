@@ -16,7 +16,7 @@ onMounted(() => {
   <header>
 
       <nav>
-        <RouterLink  class="nav-link">Notas</RouterLink>
+        <RouterLink :to="{ name: 'create'}"  class="nav-link">Notas</RouterLink>
 
         <div v-if="authStore.user" class="flex items-center space-x-6">
             <p class="text-sm text-slate-300">
